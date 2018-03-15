@@ -80,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
                                 mImageView.setImageResource(R.drawable.mist);
                             }
 
+                            if(description.equals("light rain")){
+                                mImageView.setImageResource(R.drawable.rain);
+                            }
+
+                            if(description.equals("shower rain")){
+                                mImageView.setImageResource(R.drawable.rain);
+                            }
+
                         }catch (JSONException e){
                             e.printStackTrace();
                         }
