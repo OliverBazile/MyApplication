@@ -84,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
                                 mImageView.setImageResource(R.drawable.rain);
                             }
 
+                            if(description.equals("light intensity shower rain")){
+                                mImageView.setImageResource(R.drawable.rain);
+                            }
+
+
+
                             if(description.equals("shower rain")){
                                 mImageView.setImageResource(R.drawable.rain);
                             }
